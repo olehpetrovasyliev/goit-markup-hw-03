@@ -1,4 +1,9 @@
 /* all */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body{
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -112,6 +117,7 @@ body{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
 }
 .order{
     width: 169px;
@@ -128,6 +134,7 @@ body{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    margin-top: 0px;
 }
 .order:hover,
 .order:focus{
@@ -139,6 +146,7 @@ body{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
 }
+
 .benefit-header{
     font-family: 'Roboto';
         font-style: normal;
@@ -147,6 +155,7 @@ body{
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .benefit-text{
     color: var(--color-body-text);
@@ -156,6 +165,7 @@ body{
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        margin-top:0px;
 }
 .works-header{
     font-size: 36px;
@@ -185,18 +195,24 @@ body{
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
+        margin-top: 32px;
+        margin-bottom: 8px;
 }
 .teammember{
     background-color: #ffffff;
 }
+.teammember-photo{
+    margin-bottom: 0px;
+}
 .teammember-position{
-    color: var(--color-body-text);
+    color: #434455;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        margin-top:0px;
 }
 /* portfolio  */
 
@@ -225,6 +241,9 @@ body{
 .work-portfolio{
     text-decoration: none;
 }
+.portfoliophoto{
+    margin-bottom: 0px;
+}
 .work-header{
     color: var(--color-dark);
     font-family: 'Roboto', sans-serif;
@@ -233,6 +252,8 @@ body{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-top: 32px;
+        margin-bottom: 8px;
 }
 .work-text{
     line-height: 1.5;
@@ -242,4 +263,5 @@ body{
         font-weight: 400;
         font-size: 16px;
         color: #434455;
+        margin-top: 0px;
 }
