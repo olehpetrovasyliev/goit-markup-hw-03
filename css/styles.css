@@ -94,6 +94,8 @@ body{
         line-height: 1.17;
     text-decoration: none;
     text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom:auto;
 }
 
 .logo-studio-footer {
