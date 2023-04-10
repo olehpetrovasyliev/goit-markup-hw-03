@@ -1,14 +1,17 @@
 /* all */
+html{
+    box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
+    box-sizing: inherit;
 }
 body{
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     color: var(--color-body-text);
+    margin: 0;
 }
 :root{
     --color-white:#ffffff;
@@ -27,6 +30,13 @@ body{
     color: #4D5AE5;
     text-decoration: none;
 }
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.menu-items{
+    display: flex;
+}
 .menu-item{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -36,6 +46,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--color-dark);
+        margin: auto 40px;
 }
 .menu-item:hover,
 .menu-item:focus{
@@ -60,6 +71,7 @@ body{
 }
 .contacts-list{
     font-style: normal;
+    display:inline-block;
 }
 .contact:hover,
 .contact:focus {
@@ -123,10 +135,8 @@ section{
     margin-bottom: 48px;
 }
 .order{
-    width: 169px;
-    height: 56px;
-    left: 20px;
-    top: 20px;
+    width: auto;
+    height: auto;
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -137,12 +147,12 @@ section{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    margin-top: 0px;
+    padding: 16px 32px;
 }
 .order:hover,
 .order:focus{
-        width: 169px;
-        height: 56px;
+        width: auto;
+        height: auto;
         left: 20px;
         top: 88px;
         background-color: #404BBF;
@@ -168,7 +178,7 @@ section{
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        margin-top:0px;
+        
 }
 .works-header{
     font-size: 36px;
@@ -215,7 +225,7 @@ section{
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        margin-top:0px;
+        
 }
 /* portfolio  */
 
@@ -233,6 +243,9 @@ section{
         border: 1px solid #E7E9FC;
         border-radius: 4px;
         /* зробити так щобрівнялись по тексту */
+        display: inline-block;
+        padding: 12px 24px;
+        width: auto;
 }
 .filter:hover,
 .filter:focus{
@@ -245,7 +258,7 @@ section{
     text-decoration: none;
 }
 .portfoliophoto{
-    margin-bottom: 0px;
+    
 }
 .work-header{
     color: var(--color-dark);
@@ -266,5 +279,5 @@ section{
         font-weight: 400;
         font-size: 16px;
         color: #434455;
-        margin-top: 0px;
+        
 }
