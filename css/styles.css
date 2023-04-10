@@ -21,18 +21,10 @@ body{
     --color-overlay:#2E2F42 40%;
     --color-light: #F4F4FD;
 }
-.container{
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding:0 15px;
-    display: flex;
-}  
 .link {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-decoration: none;
-    display: inline;
 }
 .menu-item{
     text-decoration: none;
@@ -43,7 +35,6 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--color-dark);
-        
 }
 .menu-item:hover,
 .menu-item:focus{
@@ -55,9 +46,6 @@ body{
         text-decoration: underline;
         color:var(--color-pressed);
         letter-spacing: 0.02em;
-}
-.menu-items{
-    display: flex;
 }
 .contact{
     letter-spacing: 0.02em;
@@ -94,8 +82,6 @@ body{
         line-height: 1.17;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: auto;
-    margin-bottom:auto;
 }
 
 .logo-studio-footer {
@@ -109,10 +95,6 @@ body{
 .logo:link{
     text-decoration: none;
 }
-nav{
-    display: flex;
-}
-
 
 
 
@@ -203,9 +185,7 @@ nav{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    margin-left: auto;
-        margin-right: auto;
-    }
+}
 .teammember-name{
     color: var(--color-dark);
     line-height: 24px;
@@ -217,11 +197,9 @@ nav{
         letter-spacing: 0.02em;
         margin-top: 32px;
         margin-bottom: 8px;
-        margin-left: auto;
-        margin-right: auto;
 }
 .teammember{
-    background-color: #ffffff;;
+    background-color: #ffffff;
 }
 .teammember-photo{
     margin-bottom: 0px;
@@ -235,9 +213,7 @@ nav{
         line-height: 24px;
         letter-spacing: 0.02em;
         margin-top:0px;
-        margin-left: auto;
-            margin-right: auto;
-        }
+}
 /* portfolio  */
 
 .filter{
