@@ -6,12 +6,13 @@ html{
 *::before,
 *::after {
     box-sizing: inherit;
+    margin: 0;
 }
 body{
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     color: var(--color-body-text);
-    margin: 0;
+ 
 }
 :root{
     --color-white:#ffffff;
@@ -29,6 +30,8 @@ body{
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 .container{
     width: 1158px;
@@ -117,14 +120,21 @@ body{
 section{
     margin-bottom: 120px;
 }
-
-/* index */
-
-.list{
+.list {
     list-style: none;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
+.footer-container{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* index */
+
+
 .hero{
     background-color: #2E2F42;
     text-align: center;
@@ -159,13 +169,14 @@ section{
 .order:focus{
         width: auto;
         height: auto;
-        left: 20px;
-        top: 88px;
         background-color: #404BBF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
 }
 
+.benefit{
+    margin-left: 24px;
+}
 .benefit-header{
     font-family: 'Roboto';
         font-style: normal;
@@ -184,6 +195,7 @@ section{
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        width: 264px;
         
 }
 .works-header{
@@ -219,6 +231,7 @@ section{
 }
 .teammember{
     background-color: #ffffff;
+    margin-left: 24px;
 }
 .teammember-photo{
     margin-bottom: 0px;
@@ -244,14 +257,13 @@ section{
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.04em;
-    width: 78px;
-        height: 48px;
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        display: inline-block;
-        padding: 12px 24px;
-        width: auto;;
-        text-align: center;
+    width: auto;
+    height: 48px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
 }
 .filter:hover,
 .filter:focus{
