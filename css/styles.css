@@ -35,6 +35,7 @@ body {
     text-decoration: none;
     padding: 0;
     margin: 0;
+    display: inline;
 }
 .container{
     width: 1158px;
@@ -43,14 +44,16 @@ body {
 }
 
 .section{
-    padding: 60px auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .button{
     display: inline-block;
 }
 .header-container{
+}
+.menu-items{
     display: flex;
-    justify-content: space-around;
 }
 .menu-item{
     text-decoration: none;
@@ -97,10 +100,10 @@ body {
     background-color: #2E2F42;
     color: #F4F4FD;
     min-width: 1440px;
-        height: 312px;
         left: 0px;
         top: 1764px;
         padding-top: 100px;
+        padding-bottom: 100px;
 }
 .logo{
     letter-spacing: 0.03em;
@@ -140,7 +143,18 @@ body {
     margin-left:156px;
     max-width: 264px;
 }
+
+
+
+
+
+
 /* index */
+
+
+
+
+
 
 
 .hero{
@@ -189,9 +203,10 @@ body {
 }
 .benefits {
     display: flex;
+
 }
 .benefit{
-    margin-left: 24px;
+    margin-right: 24px;
     display: inline;
 }
 .benefit-header{
@@ -224,8 +239,18 @@ body {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+.work-index{
+    display: inline;
+}
+.portfolio{
+    display: flex;
+}
+
 .team{
    background-color:#F4F4FD;
+}
+.teammembers{
+    display: flex;
 }
 .team-header{
     font-size: 36px;
@@ -249,14 +274,11 @@ body {
         margin-top: 32px;
         margin-bottom: 8px;
 }
-.teammembers{
-    display: flex;
-}
+
 .teammember{
     background-color: #ffffff;
     margin-left: 24px;
     text-align: center;
-    display: inline;
 }
 
 .teammember-photo{
@@ -272,7 +294,18 @@ body {
         letter-spacing: 0.02em;
         
 }
+
+
+
+
+
+
 /* portfolio  */
+
+
+
+
+
 
 .filter{
     background: #F4F4FD;
@@ -304,13 +337,16 @@ body {
     display: flex;
     justify-content: center;
 }
+.works-portfolio{
+    display: flex;
+}
 .portfoliowork{
     margin-bottom: 48px;
     margin-right: 24px;
+        text-decoration: none;
+        display: inline;
 }
-.work-portfolio{
-    text-decoration: none;
-}
+
 .work-header{
     color: var(--color-dark);
     font-family: 'Roboto', sans-serif;
