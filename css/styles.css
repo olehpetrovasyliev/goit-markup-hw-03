@@ -41,27 +41,30 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
-.section{
-   padding-bottom:120px;
+img{
+    display: block;
 }
+
 
 .button{
     display: inline-block;
 }
-nav {
+.navigation {
     display: flex;
-    gap: 76px;
+    align-items: center;
 }
 .menu-items{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 .header-container{
-    padding-top: 24px;
-    padding-bottom: 24px;
+padding: 0 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
 }
 .contact-li{
     margin: 0;
@@ -76,6 +79,9 @@ nav {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--color-dark);
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: block;
 }
 .menu-item:hover,
 .menu-item:focus{
@@ -90,7 +96,7 @@ nav {
 }
 .contacts{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 .contact{
     letter-spacing: 0.02em;
@@ -114,8 +120,7 @@ nav {
     min-width: 1440px;
     left: 0px;
     top: 1764px;
-
-
+    padding: 100px 0;
 }
 .logo{
     letter-spacing: 0.03em;
@@ -127,9 +132,22 @@ nav {
         line-height: 1.17;
     text-decoration: none;
     text-transform: uppercase;
-    display: block;
+    display: inline-block;
+    margin-right: 76px;
 }
-
+.logo-footer {
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .logo-studio-footer {
     color: #F4F4FD;
     letter-spacing: 0.03em;
@@ -153,12 +171,6 @@ nav {
 .footer-container{
     margin-left:156px;
     max-width: 264px;
-    padding-top: 100px;
-    padding-bottom: 100px;
- 
-}
-.footer-text{
-    margin-top: 16px;
 }
 
 
@@ -208,6 +220,10 @@ nav {
     color: #ffffff;
     cursor: pointer;
     padding: 16px 32px;
+    display: block;
+    height: 56px;
+    border: none;
+    margin: 0 auto;
 }
 .order:hover,
 .order:focus{
@@ -223,7 +239,7 @@ nav {
 .benefits {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
+    padding: 120px 0;
 }
 .benefit{
     display: inline-block;
@@ -285,6 +301,9 @@ nav {
     margin-bottom: 72px;
 
 }
+.team{
+    padding: 120px 0;
+}
 .teammember-name{
     color: var(--color-dark);
     line-height: 24px;
@@ -294,21 +313,23 @@ nav {
         font-weight: 500;
         font-size: 20px;
         letter-spacing: 0.02em;
-        margin-top: 32px;
         margin-bottom: 8px;
+        text-align: center;
 }
 
 .teammember{
     background-color: #ffffff;
-    text-align: center;
     display: inline-block;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
-        padding-bottom: 32px;
-}
 
-.teammember-photo{
-    margin-bottom: 0px;
+}
+.teammember-content{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: 1px solid #e7e9fc;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 .teammember-position{
     color: #434455;
@@ -318,7 +339,7 @@ nav {
         font-size: 16px;
         line-height: calc(24/16);
         letter-spacing: 0.02em;
-        
+        text-align: center; 
 }
 
 
@@ -327,7 +348,10 @@ nav {
 
 
 /* portfolio  */
-
+.portfolio-works{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .works-container{
     padding-top: 24px;
@@ -356,25 +380,30 @@ nav {
     color:#FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     cursor: pointer;
+    border: 1px solid transparent;
 }
 .filters{
-    margin-top: 96px;
-    margin-bottom: 72px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
 }
 .works-portfolio{
     display: flex;
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 .portfoliowork{
         text-decoration: none;
         
 }
-
+.portfolio-work-content{
+    border: 1px solid #E7E9FC;
+    padding: 32px 16px;
+    border-top: none;
+}
 .work-header{
     color: var(--color-dark);
     font-family: 'Roboto', sans-serif;
@@ -383,7 +412,6 @@ nav {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        margin-top: 32px;
         margin-bottom: 8px;
 }
 .work-text{
