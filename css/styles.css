@@ -233,6 +233,9 @@ padding: 0 15px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
 }
+.about{
+    padding: 120px 0;
+}
 .benefits-header{
     margin-bottom: 72px;
 }
@@ -264,6 +267,9 @@ padding: 0 15px;
         letter-spacing: 0.02em;
         width: 264px;
         
+}
+.portfolio{
+    padding-bottom: 120px;
 }
 .works-header{
     font-size: 36px;
