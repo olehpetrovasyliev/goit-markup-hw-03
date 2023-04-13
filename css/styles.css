@@ -170,7 +170,10 @@ padding: 0 15px;
 
 .footer-container{
     margin-left:156px;
-    max-width: 264px;
+}
+
+.footer-content{
+    min-width: 264px;
 }
 
 
@@ -242,7 +245,6 @@ padding: 0 15px;
 .benefits {
     display: flex;
     gap: 24px;
-    padding: 120px 0;
 }
 .benefit{
     display: inline-block;
@@ -377,7 +379,7 @@ padding: 0 15px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     display: inline-block;
-    padding: 12px 24px;
+    padding: 11px 23px;
     text-align: center;
 }
 .filter:hover,
