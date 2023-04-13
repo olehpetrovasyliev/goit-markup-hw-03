@@ -245,6 +245,7 @@ padding: 0 15px;
 .benefits {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 .benefit{
     display: inline-block;
@@ -289,6 +290,7 @@ padding: 0 15px;
 .works-index{
     display: flex;
     gap: 24px;
+        flex-wrap: wrap;
 }
 
 .team{
@@ -298,6 +300,7 @@ padding: 0 15px;
 .teammembers{
     display: flex;
     gap: 24px;
+        flex-wrap: wrap;
 }
 .team-header{
     font-size: 36px;
@@ -390,6 +393,7 @@ padding: 0 15px;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+        flex-wrap: wrap;
 }
 .works-portfolio{
     display: flex;
@@ -399,7 +403,6 @@ padding: 0 15px;
 }
 .portfoliowork{
         text-decoration: none;
-        
 }
 .portfolio-work-content{
     border: 1px solid #E7E9FC;
