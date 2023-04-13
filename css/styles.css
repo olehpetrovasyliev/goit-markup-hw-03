@@ -399,9 +399,8 @@ padding: 0 15px;
 .works-portfolio{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
-    row-gap: 48px;
 }
 .portfoliowork{
         text-decoration: none;
